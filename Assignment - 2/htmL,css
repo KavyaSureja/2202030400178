@@ -1,1 +1,327 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion for woman</title>
+    <style>
+        *{
+            margin: 0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: black;
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        h1{
+            font-size: 30px;
+        }
+        h5{
+            font-size: 15px;
+            margin-left: 13px;
+        
+        }
+        img{
+            width: 100px;
+        }
+        .line{
+            width: 30px;
+        }
+        .img-50{
+            margin: 5px 0px;
+            width: 50%;
+        }
+        .img-50 img{
+            width: 10rem;
+        } 
+        .container1{
+            background-color: bisque;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .container1 img{
+            width: 20vw;
+             position: relative;
+             top:60px;
+        }
+        .container1 h1{
+            color: pink;
+            font-size: 100px;
+            text-transform: uppercase;
+            margin-top: 120px;
+            margin-left: 90px;
+        }
+        .container1 h5{
+            font-size: 50px;
+            margin-left: 130px;
+        }
+        .container2{
+            background-color: black;
+            color: white;
+        }
+        .mainbox1{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 50px;
+        }
+        .img-50{
+            width: 50%;
+        }
+        .text-50{
+            width: 50%;
+        }
+        .container2 img,.container3 img,.container4 img, .container5 img,.container6 img{
+            width:400px;
+            margin: 20px;
+        }
+        .container2 h1, .container4 h1, .container6 h1{
+            width:160px;
+            font-size: 50px;
+            border-bottom: 1px solid white;
+        }
+        .container2 h4, .container4 h4,  .container6 h4{
+            width: 200px;
+            font-size: 60px;
+            border-bottom: 1px solid white;
+            margin: 5px 0px;
+        }
+        .container3 h1, .container5 h1{
+            width:160px;
+            font-size: 50px;
+            border-bottom: 1px solid black;
+        }
+        .container3 h4, .container5 h4{
+            width: 200px;
+            font-size: 60px;
+            border-bottom: 1px solid black;
+            margin: 5px 0px;
+        }
+        
+        .container2 p, .container3 p, .container4 p, .container5 p, .container6 p{
+            width: 80%;
+            font-size: 30px;
+        }
+        .container2 button, .container4 button,  .container6 button{
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            padding: 5px;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin: 10px 0px;
+            border-radius: 10px;
+        }
+        .container3 button, .container5 button{
+            border: 1px solid black;
+            background-color: white;
+            color: black;
+            padding: 5px;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin: 10px 0px;
+            border-radius: 10px;
+        }
+        .container4, .container6{
+            background-color: black;
+            color: white;
+        }
+        .container7 h1{
+            text-transform: capitalize;
+            text-align: center;
+            font-size: 40px;
+            margin-top: 10px;
+            text-shadow: 0px 0px 10px pink;
+        }
+        .container7 form{
+            text-transform: capitalize;
+            margin: 20px 40px;
+            font-size: 30px;
+        }
+        .container7 input{
+            padding: 5px 50px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+        }
+        .box{
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        footer h1{
+            font-size: 40px;
+            text-transform: capitalize;
+            margin-top: 20px;
+        }
+        footer li{
+         list-style: none;
+         text-transform: capitalize;
+         margin: 5px 0px;
+        }
+        footer span{
+            font-size: 20px;
+            margin-left:550px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <h1>Fashion</h1>
+                <h5>for Woman</h5>
+            </div>
+            <div>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.O8z705UV7Dfhj8MnpHAFrAAAAA&pid=Api&P=0&h=180" class="line" alt="">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="sec1">
+            <div class="container1">
+                <div>
+                    <h1>Fashion</h1>
+                    <h5>For Woman</h5>
+                </div>
+                <div><img src="./NY-fashion-week-street-style-3-removebg-preview.png" alt=""></div>
+            </div>
+        </section>
+        <section class="sec2">
+            <div class="container2">
+                <div class="mainbox1">
+                    <div class="img-50">
+                        <img src="https://instaloverz.com/wp-content/uploads/2016/08/26-Women-StreetStyle-Fashion.jpg" alt="">
+                    </div>
+                    <div class="text-50">
+                        <h1>1</h1>
+                        <span class="border"></span>
+                        <h4>Dresses</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magnam sit dolore provident, recusandae non totam iste ipsam quibusdam deserunt iure aspernatur repellat ab similique! In illum at adipisci soluta assumenda porro asperiores doloremque, amet veniam aut quos maxime atque numquam quibusdam saepe esse impedit necessitatibus iure sequi nobis doloribus!</p>
+                        <button>shop now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec3">
+            <div class="container3">
+                <div class="mainbox1">
+                    <div class="text-50">
+                        <h1>2</h1>
+                        <span class="border"></span>
+                        <h4>Dresses</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magnam sit dolore provident, recusandae non totam iste ipsam quibusdam deserunt iure aspernatur repellat ab similique! In illum at adipisci soluta assumenda porro asperiores doloremque, amet veniam aut quos maxime atque numquam quibusdam saepe esse impedit necessitatibus iure sequi nobis doloribus!</p>
+                        <button>shop now</button>
+                    </div>
+                    <div class="img-50">
+                        <img src="https://i.pinimg.com/736x/26/31/21/263121e2bffe922bc81ae5b820835a24.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec4">
+            <div class="container4">
+                <div class="mainbox1">
+                    <div class="img-50">
+                        <img src="https://i.pinimg.com/736x/5b/11/ac/5b11ac95023065470cb0d6d882d22b93.jpg" alt="">
+                    </div>
+                    <div class="text-50">
+                        <h1>3</h1>
+                        <span class="border"></span>
+                        <h4>Dresses</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magnam sit dolore provident, recusandae non totam iste ipsam quibusdam deserunt iure aspernatur repellat ab similique! In illum at adipisci soluta assumenda porro asperiores doloremque, amet veniam aut quos maxime atque numquam quibusdam saepe esse impedit necessitatibus iure sequi nobis doloribus!</p>
+                        <button>shop now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec5">
+            <div class="container5">
+                <div class="mainbox1">
+                    <div class="text-50">
+                        <h1>4</h1>
+                        <span class="border"></span>
+                        <h4>Dresses</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magnam sit dolore provident, recusandae non totam iste ipsam quibusdam deserunt iure aspernatur repellat ab similique! In illum at adipisci soluta assumenda porro asperiores doloremque, amet veniam aut quos maxime atque numquam quibusdam saepe esse impedit necessitatibus iure sequi nobis doloribus!</p>
+                        <button>shop now</button>
+                    </div>
+                    <div class="img-50">
+                        <img src="https://mews.in/wp-content/uploads/2021/12/gujarati-choli.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec6">
+            <div class="container6">
+                <div class="mainbox1">
+                    <div class="img-50">
+                        <img src="https://shaadiwish.com/blog/wp-content/uploads/2021/01/panetar-saree.jpg" alt="">
+                    </div>
+                    <div class="text-50">
+                        <h1>5</h1>
+                        <span class="border"></span>
+                        <h4>Dresses</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magnam sit dolore provident, recusandae non totam iste ipsam quibusdam deserunt iure aspernatur repellat ab similique! In illum at adipisci soluta assumenda porro asperiores doloremque, amet veniam aut quos maxime atque numquam quibusdam saepe esse impedit necessitatibus iure sequi nobis doloribus!</p>
+                        <button>shop now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec7">
+            <div class="container7">
+                <h1>contant us</h1>
+                <div class="form">
+                    <form action="">
+                        <table>
+                            <tr>
+                                <td>name:</td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>email:</td>
+                                <td><input type="email"></td>
+                            </tr>
+                            <tr>
+                                <td>massage:</td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </section> 
+        <footer>
+            <div class="box">
+                <div>
+                    <h1>dresses</h1>
+                    <ul>
+                        <li>culotte</li>
+                        <li>bebydoll</li>
+                        <li>wrap arond</li>
+                        <li>kimono</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1>sarees</h1>
+                    <ul>
+                        <li>mangalagiri</li>
+                        <li>ilkal</li>
+                        <li>bhagalpuri</li>
+                        <li>nauvari</li>
+                    </ul>
+                </div>
+            </div>
+            <span>@copright 2024-25 by Fashion for woman</span>
+        </footer>       
+    </main>
+</body>
+</html>
